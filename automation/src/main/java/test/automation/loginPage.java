@@ -46,6 +46,7 @@ public class loginPage extends baseClass
 		return flag;
 	}
 	public void login(String Uname, String Upassword) throws IOException, InterruptedException{
+		System.out.println("hi");
 		username.sendKeys(Uname);
 		password.sendKeys(Upassword);
 		loginbtn.click();		
